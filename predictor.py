@@ -1,13 +1,9 @@
-import csv
-from rdkit import Chem
-from rdkit.Chem import Descriptors
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import tensorflow as tf
-import matplotlib.pyplot as plt  # Import matplotlib for plotting
-import matplotlib.pyplot as plt  # Import matplotlib for plotting
-from sklearn.metrics import r2_score  # Import r2_score for R^2 computation
+import matplotlib.pyplot as plt 
+from sklearn.metrics import r2_score
 from joblib import dump
 
 def main():
